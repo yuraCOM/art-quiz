@@ -181,7 +181,7 @@ body{
 }
 .img-card{
   width: 45%;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
 }
 .newDivCardQuestion .img-card:hover{
@@ -224,6 +224,10 @@ body{
 
 footer{
   background-color: #3d8340;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 
 }
 .newDivFinishScore{
