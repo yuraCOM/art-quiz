@@ -1,0 +1,13 @@
+.all-authors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-btn{
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
