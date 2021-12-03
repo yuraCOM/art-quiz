@@ -4,8 +4,8 @@ body{
 .wrap {
   max-width: 100%;
   /*height:100%;*/
-  /*height: 100vh;*/
-  height: 85vh;
+  height: 100vh;
+  /*height: 85vh;*/
   /*background-color: #959393;*/
   box-sizing: border-box;
   display: flex;
@@ -60,6 +60,7 @@ body{
   height: 100%;
   /*flex-grow: 1;*/
   position: relative;
+  overflow-x: hidden;
 }
 
 .main-window{
@@ -106,7 +107,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px 2px;
-  background-color: chocolate;
+  /*background-color: chocolate;*/
   position: absolute;
   left: 150%;
   width: 100%;
@@ -137,6 +138,17 @@ body{
   flex-wrap: wrap;
 }
 
+.clear-local-store {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.clear-local-store button{
+  margin-bottom: 10px;
+}
+
 .artist-categories{
   display: flex;
   flex-wrap: wrap;
@@ -157,10 +169,19 @@ body{
 
 }
 .art-card:hover{
-  background-color: deeppink;
+  background-color: #03a9f4;
+}
+h3.score{
+  color: white;
+  padding-top: 5px
+}
+.grayscale{
+  filter: grayscale(1);
 }
 .artist-quiz h3{
   width: 100%;
+  margin: 0;
+  color: crimson;
 }
 .artist-quiz p{
   display: inline-block;
@@ -168,8 +189,10 @@ body{
 }
 
 .artist-quiz img{
-  width: 100%;
+  width: 80%;
+  filter: drop-shadow(2px 4px 6px black);
 }
+
 
 
 .newDivCardQuestion{
@@ -208,7 +231,7 @@ body{
 }
 .newDivCardResult .img-card{
   cursor: none;
-  width: 60%;
+  width: 80%;
 
 }
 .newDivCardResult .img-card:hover{

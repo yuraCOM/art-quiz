@@ -1,0 +1,14 @@
+.all-pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.prev-pic{
+    width: 24%;
+    margin: 5px 2px;
+}
+.prev-pic img{
+    width: 100%;
+}
